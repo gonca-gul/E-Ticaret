@@ -1,0 +1,602 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"   %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+     
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+     
+        .auto-style3 {
+            text-align: left;
+            width: 208px;
+            height: 879px;
+            margin-top: 13px;
+        }
+        .auto-style10 {
+            font-size: xx-large;
+            color: #000000;
+            height: auto;
+            width: 1306px;
+        }
+        .auto-style15 {
+            width: 826px;
+            height: 294px;
+            margin-left: 0px;
+        }
+        .login {
+            width: 356px;
+            margin-left: 372px;
+        }
+        .box {
+            height: 125px;
+        }
+        .auto-style19 {
+            margin-left: 2px;
+            margin-top: 14px;
+            width: 206px;
+            height: 297px;
+        }
+        .auto-style23 {
+            left: 0px;
+            top: 0px;
+            width: 157px;
+        }
+        .auto-style24 {
+            left: 0px;
+            top: 0px;
+            width: 187px;
+        }
+        .auto-style25 {
+            left: 0px;
+            top: 0px;
+            width: 190px;
+        }
+        .auto-style26 {
+            left: 0px;
+            top: 0px;
+            width: 152px;
+            height: 94px;
+        }
+        .auto-style27 {
+            position: relative;
+            clear: both;
+            width: 1265px;
+            left: 0px;
+            top: 0px;
+            margin: 0 auto;
+            padding: 50px 0;
+            height: 114px;
+        }
+        .auto-style28 {
+            width: 115px;
+        }
+        .auto-style29 {
+            color: #000000;
+        }
+        .auto-style31 {
+            width: 821px;
+            height: 10px;
+        }
+        .auto-style32 {
+            width: 394px;
+            height: 305px;
+            margin-top: 0px;
+            margin-left: 847px;
+        }
+        .auto-style33 {
+            width: 854px;
+            height: 325px;
+            margin-left: 45px;
+        }
+        .auto-style34 {
+            width: 603px;
+            margin-left: 242px;
+            margin-top: 0px;
+            height: 286px;
+        }
+        .auto-style35 {
+            width: 604px;
+            margin-left: 244px;
+            margin-bottom: 0px;
+            height: 331px;
+        }
+        .auto-style36 {
+            width: 598px;
+            height: 324px;
+            margin-left: 0px;
+        }
+        .auto-style37 {
+            width: 591px;
+            height: 284px;
+            margin-left: 0px;
+        }
+        .auto-style38 {
+            width: 604px;
+            margin-left: 241px;
+            height: 215px;
+        }
+        .auto-style39 {
+            width: 601px;
+            height: 209px;
+            margin-left: 0px;
+        }
+        .auto-style45 {
+            color: #003300;
+        }
+        .auto-style50 {
+            width: 825px;
+            height: 248px;
+            overflow: hidden;
+            position: relative;
+            left: -236px;
+            top: 0px;
+        }
+        .auto-style51 {
+            left: 0px;
+            top: 0px;
+            width: 158px;
+        }
+        .auto-style52 {
+            width: 304px;
+            height: 858px;
+            margin-left: 930px;
+        }
+        .auto-style56 {
+            width: 1278px;
+            height: 559px;
+            margin-left: -300px;
+            margin-right: auto;
+            margin-top: 4px;
+            margin-bottom: 40px;
+        }
+        .auto-style57 {
+            height: 460px;
+        }
+        .auto-style58 {
+            height: 178px;
+            width: 1338px;
+            
+        }
+        </style>
+    <link rel="stylesheet" type="text/css" href="new.css" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css" />
+        <link rel="stylesheet" type="text/css" href="StyleSheet3.css" />
+            <link rel="stylesheet" type="text/css" href="slide.css" />
+                <link rel="stylesheet" type="text/css" href="sol.css" />
+                    <link rel="stylesheet" type="text/css" href="sayfalar.css" />
+                        <link rel="stylesheet" type="text/css" href="footer.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" >
+
+</head>
+<body style="height: 2956px">
+
+     
+    
+    <form id="form1" runat="server">
+        <div style="border: thick groove #FF9E3E; margin-left: 17px; background-color:#808080; background-image: linear-gradient(#5155A6, #66B1F2, #F2C49B);" class="auto-style10">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohy.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohi.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohl.gif" border="0" alt="Eskişehir Emlak" style="margin-right: 0px"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohb.gif" border="0" alt="Eskişehir Emlak" style="margin-left: 17px"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/roha.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohs.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohi.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/bos.png" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohf.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohi.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohr.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohs.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/roha.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/roht.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohl.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/roha.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohr.gif" border="0" alt="Eskişehir Emlak"></a><a href="http://www.eskisehiremlak.com"><img src="http://in.sitekodlari.com/prla/rohi.gif" border="0" alt="Eskişehir Emlak"></a>
+        </div>
+        <div class="auto-style27" >
+<nav>
+    <ul class="mcd-menu">
+      <li class="auto-style26">
+        <a href="1.aspx">
+          <i class="fa fa-home"></i>
+          <span class="auto-style29"><strong>Anasayfa</strong></span>
+        </a>
+      </li>
+      <li>
+        <a href="" class="active" style="left: 0px; top: 0px; width: 128px">
+          <i class="fa fa-edit"></i>
+          <strong>kİTAP BANK</strong>
+          <small>hakkımızda..</small>
+        </a>
+      </li>
+      <li class="auto-style25">
+        <a href="2.aspx">
+          <i class="fa fa-gift"></i>
+          <span class="auto-style29">
+          <strong>Kampanyalar</strong></span>
+          <small>indirimler</small>
+        </a>
+      </li>
+     
+      <li class="auto-style24">
+        <a href="">
+          <i class="fa fa-comments-o"></i>
+          <span class="auto-style29">
+          <strong class="auto-style51">Üyelik İşlemleri</strong></span>
+          <small>hemen üye ol!</small>
+        </a>
+        <ul>
+          <li><a href="#"><i class="fa fa-globe"></i>Hesap İşlemleri</a></li>
+          <li>
+            <a href="#"><i class="fa fa-group"></i>Paylaşarak Çoğalalım</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-whatsapp"></i>Whatsapp</a></li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+                
+              </li>
+              <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-trophy"></i>İndirim Kuponları</a></li>
+          <li><a href="#"><i class="fa fa-certificate"></i>Cüzdan</a></li>
+        </ul>
+      </li>
+     
+      <li class="auto-style23">
+        <a href="3.aspx" class="auto-style28">
+          <i class="fa fa-envelope-o"></i>
+          <span class="auto-style29">
+          <strong>İletişim</strong></span>&nbsp;
+        </a>
+      </li>
+      <li class="float" style="left: -5px; top: 0px; width: 308px; height: 117px;">
+        <a class="search">
+          <input type="text" value="search ...">
+          <button>ARA</button>
+        </a>
+        <a href="" class="search-mobile">
+          <i class="fa fa-search"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+            
+            <div class='visible' id='tagline' style="margin-top: 70px; margin-right: 125px;">
+    <ul>
+      <li class="auto-style45">HAFTANIN FIRSATI</li>
+      <li>KAÇIRMA!</li>
+      <li>HADİ TIKLA</li>
+    </ul> </div>
+            
+        </div>
+    <div  style="margin-left:69px; " class="auto-style31"> &nbsp;<br /> 
+    
+        <div style="margin-top:-7px; " class="auto-style32">
+            
+            
+            &nbsp;&nbsp;&nbsp;<asp:AdRotator ID="AdRotator2" runat="server" AdvertisementFile="~/XMLFile.xml" BorderColor="#FFCCFF" BorderStyle="Groove"  />
+            
+            
+            
+        &nbsp;&nbsp;&nbsp;
+            
+            
+            
+        </div>
+    
+ </div>
+
+    <div class="auto-style33"> &nbsp;&nbsp; &nbsp;<img alt="" class="auto-style15" src="https://cdn.bkmkitap.com/Data/EditorFiles/interactive/yil_sonu/YEN%C4%B0-YIL-BANNER.jpg" border="0" style="border: thick ridge #FF9E3E" />
+
+         <div style=" color: #660066; margin-left: 14px;  " class="auto-style3"> 
+
+             <asp:Menu ID="Menu1" runat="server"  BackColor="White"  DynamicHorizontalOffset="2" Font-Names="Maiandra GD" Font-Size="1em" ForeColor="#FF6600" StaticSubMenuIndent="10px" Height="330px" ViewStateMode="Enabled" Width="200px" BorderColor="#999966" Font-Bold="True" Font-Italic="False" CssClass="dynamic" Font-Strikeout="False" Font-Underline="False" >
+                 <DynamicHoverStyle BackColor="#990000" ForeColor="White" Font-Underline="False" BorderStyle="Double" />
+                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" Font-Underline="False" />
+                 <DynamicMenuStyle BackColor="#E6CCFF" />
+                 <DynamicSelectedStyle BackColor="#660066" BorderStyle="Double" />
+                 <Items>
+                     <asp:MenuItem Text="EDEBİYAT" Value="EDEBİYAT">
+                         <asp:MenuItem Text="AŞK" Value="AŞK"></asp:MenuItem>
+                         <asp:MenuItem Text="ANLATI" Value="ANLATI"></asp:MenuItem>
+                         <asp:MenuItem Text="ÇİZGİ ROMAN" Value="ÇİZGİ ROMAN"></asp:MenuItem>
+                         <asp:MenuItem Text="100 TEMEL ESER" Value="100 TEMEL ESER"></asp:MenuItem>
+                         <asp:MenuItem Text="DÜNYA EDEBİYATI" Value="DÜNYA EDEBİYATI"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="KLASİKLER" Value="KLASİKLER"></asp:MenuItem>
+                     <asp:MenuItem Text="SANAT" Value="SANAT">
+                         <asp:MenuItem Text="RESİM" Value="RESİM"></asp:MenuItem>
+                         <asp:MenuItem Text="MÜZİK" Value="MÜZİK"></asp:MenuItem>
+                         <asp:MenuItem Text="FİLM" Value="FİLM"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="BİLİM KURGU" Value="BİLİM KURGU"></asp:MenuItem>
+                     <asp:MenuItem Text="TARİH" Value="TARİH">
+                         <asp:MenuItem Text="MUSTAFA KEMAL ATATÜRK KİTAPLARI" Value="MUSTAFA KEMAL ATATÜRK KİTAPLARI"></asp:MenuItem>
+                         <asp:MenuItem Text="ANADOLU TARİHİ" Value="ANADOLU TARİHİ"></asp:MenuItem>
+                         <asp:MenuItem Text="DÜNYA TARİHİ" Value="DÜNYA TARİHİ"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="ÇOCUK KİTAPLARI" Value="ÇOCUK KİTAPLARI">
+                         <asp:MenuItem Text="0-2 YAŞ" Value="0-2 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="2-4 YAŞ" Value="2-4 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="4-8 YAŞ" Value="4-8 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="8-12 YAŞ" Value="8-12 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="12-14 YAŞ" Value="12-14 YAŞ"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="EĞİTİM" Value="EĞİTİM">
+                         <asp:MenuItem Text="KPSS" Value="KPSS"></asp:MenuItem>
+                         <asp:MenuItem Text="ÜNİVERSİTE HAZIRLIK" Value="ÜNİVERSİTE HAZIRLIK"></asp:MenuItem>
+                         <asp:MenuItem Text="LİSE HAZIRLIK" Value="LİSE HAZIRLIK"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="SAĞLIK" Value="SAĞLIK"></asp:MenuItem>
+                     <asp:MenuItem Text="MACERA" Value="MACERA"></asp:MenuItem>
+                     <asp:MenuItem Text="DRAM/DUYGU YÜKLÜ" Value="DRAM/DUYGU YÜKLÜ"></asp:MenuItem>
+                     <asp:MenuItem Text="KARİKATÜR"></asp:MenuItem>
+                     <asp:MenuItem Text="DERGİLER"></asp:MenuItem>
+                     <asp:MenuItem Text="GAZETELER" Value="GAZETE"></asp:MenuItem>
+                 </Items>
+                 <StaticHoverStyle BackColor="#990000" ForeColor="White" Font-Underline="False" BorderStyle="Double" />
+                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                 <StaticSelectedStyle BackColor="#CC99FF" />
+             </asp:Menu>
+            
+             
+            
+         
+            
+             
+            
+             <div class="auto-style35" style="margin-top:-335px; ">
+                 <img alt="" class="auto-style36" src=https://cdn.bkmkitap.com/Data/EditorFiles/interactive/basamak-banner.jpg />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+             </div>
+            
+             
+            
+         
+            
+             
+            
+             <div class="auto-style19">
+
+                 <asp:Menu ID="Menu2" runat="server"  BackColor="White" DynamicHorizontalOffset="2" Font-Names="Maiandra GD" Font-Size="1em" ForeColor="#FF6600" StaticSubMenuIndent="10px" Height="285px" ViewStateMode="Enabled" Width="200px" BorderColor="#999966" Font-Bold="True" Font-Italic="False" >
+                 <DynamicHoverStyle BackColor="#990000" ForeColor="White" BorderStyle="Double" />
+                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                 <DynamicMenuStyle BackColor="#E6CCFF" />
+                 <DynamicSelectedStyle BackColor="#004080" BorderStyle="Double" />
+                 <Items>
+                     <asp:MenuItem Text="CAN YAYINLARI">
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="İŞ BANKASI KÜLTÜR">
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="ALTIN KİTAPLAR"></asp:MenuItem>
+                     <asp:MenuItem Text="YKY">
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="KORİDOR YAYINLARI"></asp:MenuItem>
+                     <asp:MenuItem Text="BAYKUŞ YAYINEVİ" Value="ÇOCUK KİTAPLARI">
+                         <asp:MenuItem Text="0-2 YAŞ" Value="0-2 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="2-4 YAŞ" Value="2-4 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="4-8 YAŞ" Value="4-8 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="8-12 YAŞ" Value="8-12 YAŞ"></asp:MenuItem>
+                         <asp:MenuItem Text="12-14 YAŞ" Value="12-14 YAŞ"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="EĞİTİM" Value="EĞİTİM">
+                         <asp:MenuItem Text="BENİM HOCAM " Value="KPSS"></asp:MenuItem>
+                         <asp:MenuItem Text="PALME" Value="ÜNİVERSİTE HAZIRLIK"></asp:MenuItem>
+                         <asp:MenuItem Text="BİREY" Value="LİSE HAZIRLIK"></asp:MenuItem>
+                         <asp:MenuItem Text="YEDİ İKİM"></asp:MenuItem>
+                         <asp:MenuItem Text="DİLKO" Value="DİLKO"></asp:MenuItem>
+                     </asp:MenuItem>
+                     <asp:MenuItem Text="İTHAKİ YAYINLARI"></asp:MenuItem>
+                     <asp:MenuItem Text="EPSİLON YAYINLARI"></asp:MenuItem>
+                     <asp:MenuItem Text="KARBON KİTAPLAR"></asp:MenuItem>
+                     <asp:MenuItem Text="DİĞER" Value="YAYINEVLERİ"></asp:MenuItem>
+                 </Items>
+                 <StaticHoverStyle BackColor="#990000" ForeColor="White" BorderStyle="Double" />
+                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                 <StaticSelectedStyle BackColor="#004080" BorderStyle="Double" />
+             </asp:Menu>
+            
+             
+            
+         
+            
+             
+            
+                 <div class="auto-style34" style="margin-top:-290px;">
+                   
+                <img alt="" class="auto-style37" src=https://cdn.bkmkitap.com/Data/EditorFiles/interactive/ephesus-banner_v2.jpg/>
+                 </div>
+                 <br />
+                 <asp:Menu ID="Menu3" runat="server"  BackColor="White"  DynamicHorizontalOffset="2" Font-Names="Maiandra GD" Font-Size="1em" ForeColor="#FF6600" StaticSubMenuIndent="10px" Height="200px" ViewStateMode="Enabled" Width="200px" BorderColor="#999966" Font-Bold="True" Font-Italic="False" >
+                     <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                     <DynamicMenuStyle BackColor="#660066" />
+                     <DynamicSelectedStyle BackColor="#003366" BorderStyle="Double" />
+                     <Items>
+                         <asp:MenuItem Text="KIRTASİYE" Value="KIRTASİYE"></asp:MenuItem>
+                         <asp:MenuItem Text="DVD" Value="DVD"></asp:MenuItem>
+                         <asp:MenuItem Text="PLAK" Value="PLAK"></asp:MenuItem>
+                         <asp:MenuItem Text="PUZZLE" Value="PUZZLE"></asp:MenuItem>
+                         <asp:MenuItem Text="KUTU OYUNLARI" Value="KUTU OYUNLARI"></asp:MenuItem>
+                         <asp:MenuItem Text="BOYAMA KİTAPLARI" Value="BOYAMA KİTAPLARI"></asp:MenuItem>
+                         <asp:MenuItem Text="BİLGİSAYAR OYUNLARI" Value="BİLGİSAYAR OYUNLARI"></asp:MenuItem>
+                     </Items>
+                     <StaticHoverStyle BackColor="#990000" ForeColor="White" BorderStyle="Double" />
+                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                     <StaticSelectedStyle BackColor="#003366" BorderStyle="Double" />
+                 </asp:Menu>
+            
+             
+   
+            
+                 <div class="auto-style38" style="margin-top:-205px">
+                     <img alt="" class="auto-style39" src="img/yeniyilhediyeleri-banner.jpg" />
+                     <br />
+                     <br />
+                     <br />
+                     <div class="auto-style50">
+                         <div style="margin-right: 40px; ">
+<a class="resim1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11305591/wi:940/wh:8ba6ac28a"  ></a>
+<a class="resim2"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11338640/wi:940/wh:3cbff935e"></a>
+<a class="resim3"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11144144/wi:940/wh:6a0f6b992"></a>
+<a class="resim4"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11334550/wi:940/wh:abb5915ec"></a>
+<a class="resim5"><img src="https://img.kitapyurdu.com/v1/getImage/fn:10860944/wi:940/wh:0aea804a9"></a>
+</div>
+
+                     </div>
+                   
+                     
+                         <div class="auto-style56">
+    <div class="gallery"><h1 class="ribbon">
+   <strong class="ribbon-content">EN POPÜLER KİTAPLAR</strong>
+</h1>
+      <ul>
+        <li><img src="https://cdn.bkmkitap.com/vezir-gambiti-6437796-51-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/uygarligin-ayak-izleri-krallar-ve-tanrilar-6417812-50-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/duvarda-tek-basina-6417839-50-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/sevgili-wanda-6379057-50-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/rehine-509770-6417843-50-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/yesilin-kizi-anne-5-ciltli-6458412-51-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/covid-19-gercekleri-ve-gelecek-5780804-49-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/wolfe-kardesler-serisi-kutulu-set-6404134-15-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/otostopcunun-galaksi-rehberi-5-cilt-birarada-ciltli-476789-23-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/toz-serisi-3-kitap-takim-6306167-50-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/leigh-bardugo-set-3-kitap-takim-5645809-38-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/icimizdeki-seytan-438920-3872943-43-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/kuyucakli-yusuf-438912-3872935-43-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/bazen-olmaz-688690-23-K.jpg"></li>
+
+      </ul>
+    </div> <div class="gallery">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h1 class="ribbon"><strong class="ribbon-content">ÇOK SATANLAR</strong> </h1>
+        <ul class="auto-style57">
+   
+        <li><img src="https://cdn.bkmkitap.com/kitap-okuyan-cocuk-yetistirmek-6064642-49-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/korluk-232718-3787231-23-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/ay-isigi-sokagi-234100-3787211-23-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/hayata-don-5874272-18-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/madalyonun-ici-5874268-18-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/1984-3774816-64-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/cesur-yeni-dunya-3776397-31-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/amok-kosucusu-216076-5644951-21-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/bilinmeyen-bir-kadinin-mektubu-3788644-30-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/gunahin-uc-rengi-madalyonun-oteki-yuzu-5874270-19-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/momo-5874231-26-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/seker-portakali-346759-6430435-34-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/hayvan-ciftligi-3774817-79-K.jpg"></li>
+        <li><img src="https://cdn.bkmkitap.com/arachnoid-mater-5874255-47-K.jpg"></li>
+
+      </ul>
+                                 <div class="auto-style58">
+                                     <footer class="footer-distributed">
+ 
+      <div class="footer-left">
+        <h3>KİTAP<span>BANK</span></h3>
+ 
+        <p class="footer-links">
+          <a href="#">ANASAYFA</a>
+          |
+          <a href="#">HAKKIMIZDA</a>
+          |
+          <a href="#">SPONSORLARIMIZ</a>
+          |
+          <a href="#">İLETİŞİM</a>
+        </p>
+ 
+        <p class="footer-company-name">© 2021 Gonca E-Ticaret Yazılımları</p>
+      </div>
+ 
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p>
+            Kadıköy/İstanbul</p>
+        </div>
+ 
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+9 05316152130</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:goncagul00@gmail.com">goncagul00@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>HEDEFLER</span>
+          Türkiye'nin her yerinde KitapBank firmasının kitaplarını okutmak istiyoruz.</p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+                                 </div>
+    </div>
+
+                     </div>
+                 </div>
+            
+   
+            
+             </div>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+        &nbsp;
+          
+        </div> 
+     </div>
+        
+    </form>
+   
+    
+<div style="margin-left:927px; margin-top: -7px;" id="login" class="login"  >
+    <form action="">
+      <input type="text" placeholder="Username" id="username">  
+  <input type="password" placeholder="password" id="password">  
+  <a href="#" class="forgot"></a>
+  <input  type="submit"  value="Sign In" >
+ </form>
+   </div><br />
+   
+    
+   
+    <div class="auto-style52">
+        <button class="but" style="left: 11px; top: -1px; width: 292px; height: 36px">HAFTANIN EN'LERİ</button>
+<figure class="snip0016">
+  <img src="https://blog.gittigidiyor.com/wp-content/uploads/2020/05/kitap-tavsiyeleri-3.jpg" alt="sample41"/>
+  <figcaption>
+    <h2>haftanın&nbsp; <span>en çok&nbsp; satan&nbsp;</span> kitapları</h2>
+    <p>Bu kitaplar senin de ilgini çekebilir!</p>
+    <a href="#"></a>
+  </figcaption>     
+</figure>
+<figure class="snip0016">
+  <img src="https://blog.gittigidiyor.com/wp-content/uploads/2020/05/kitap-tavsiyeleri-2.jpg" alt="sample42"/>
+  <figcaption>
+    <h2> haftanın <span>en çok tıklananları</span></h2>
+    <p>Ne çok bakıldı bu kitaplara bir bilsen!</p>
+    <a href="#"></a>
+  </figcaption>     
+</figure>
+<figure class="snip0016">
+  <img src="https://blog.gittigidiyor.com/wp-content/uploads/2020/05/kitap-tavsiyeleri.jpg" alt="sample43"/>
+  <figcaption>
+    <h2>Haftanın&nbsp; <span>en çok&nbsp; like &nbsp;alan</span> kitapları </h2>
+    <p>Bu kitaplar yıldızlanmaya doyamadı!</p>
+    <a href="#"></a>
+  </figcaption>     
+</figure>
+        <figure class="snip0016">
+  <img src="https://www.edebiyathaber.net/wp-content/uploads/2015/07/04-42202-post/cok-satanlar.jpg" alt="sample43"/>
+  <figcaption>
+    <h2>İşte &nbsp; <span>senin &nbsp; bakmaya &nbsp;doyamadığın</span> kitaplar </h2>
+    <p>Bir daha bakmak ister misin?</p>
+    <a href="#"></a>
+  </figcaption>     
+</figure>
+    </div>
+  
+    </body>
+</html>
+
+
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/img/mavi.jpg</ImageUrl>
+		<NavigateUrl>https://www.mavi.com/</NavigateUrl>
+		<AlternateText>Mavi Jeans</AlternateText>
+		<İmpressions>20</İmpressions>
+		<Keyword>Mavi</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/img/mavi2.jpg</ImageUrl>
+		<NavigateUrl>https://www.mavi.com/</NavigateUrl>
+		<AlternateText>Çok Mu Çok Mavi'yiz</AlternateText>
+		<İmpressions>20</İmpressions>
+		<Keyword>Mavi</Keyword>
+	</Ad>
+</Advertisements>

@@ -1,0 +1,251 @@
+﻿
+
+.auto-style50 {
+    width: 837px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.resim1, .resim2, .resim3, .resim4, .resim5 {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+}
+
+.auto-style50 > div > a > span {
+    position: absolute;
+    display: table;
+    background-color: black;
+    color: white;
+    right: 0;
+    bottom: 0;
+    padding: 5px 10px;
+}
+
+
+.resim1 {
+    left: 0;
+}
+
+.resim2 {
+    left: 800px;
+}
+
+.resim3 {
+    left: 1600px;
+}
+
+.resim4 {
+    left: 2400px;
+}
+
+.resim5 {
+    left: 3200px;
+}
+
+
+.auto-style50 > div {
+    width: 900px;
+    height: 220px;
+    left: 0px;
+    position: absolute;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: gecisler;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: gecisler;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: gecisler;
+}
+
+
+    .auto-style50 > div img {
+        opacity: 0.9;
+        filter: alpha(opacity=95);
+    }
+
+        .auto-style50 > div img:hover {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+    .auto-style50 > div:hover {
+        -webkit-animation-play-state: paused;
+        /* Bu CSS tanımı Chrome 4.0, IE10, Firefox 16, Safari 4, Opera 15 ve üstü versiyonlarda çalışmaktadır*/
+    }
+
+
+@-webkit-keyframes gecisler {
+    0%
+
+{
+    left: 0px;
+}
+
+10% {
+    left: 0px;
+}
+
+20% {
+    left: -800px;
+}
+
+30% {
+    left: -800px;
+}
+
+40% {
+    left: -1600px;
+}
+
+50% {
+    left: -1600px;
+}
+
+60% {
+    left: -2400px;
+}
+
+70% {
+    left: -2400px;
+}
+
+80% {
+    left: -3200px;
+}
+
+90% {
+    left: -3200px;
+}
+
+}
+
+@-moz-keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+@-ms-keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+@keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
